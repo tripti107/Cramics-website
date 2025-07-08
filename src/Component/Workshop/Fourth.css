@@ -1,0 +1,82 @@
+.fourth-section {
+  background-color: lightsteelblue;
+  width: 100%;
+  padding: 60px 0;
+}
+
+.fourth {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fourth-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.fourth-content h2 {
+  font-size: 50px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.fourth-content p {
+  font-size: 25px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 30px;
+  margin-left: 250px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn {
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  width: fit-content;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.subscribe {
+  background-color: #8e3e3e;
+  color: white;
+  margin-left: 250px;
+}
+
+.subscribe:hover {
+  background-color: #6a2c2c;
+}
+.show-more {
+  background-color: transparent;
+  color: #8e3e3e;
+  border: 2px solid #8e3e3e;
+}
+
+.show-more:hover {
+  background-color: #fceeee;
+}
+
+.fourth-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.fourth-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

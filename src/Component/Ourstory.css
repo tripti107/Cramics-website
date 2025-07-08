@@ -1,0 +1,31 @@
+.our-story {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.story-overlay {
+  color: white;
+  width: 100vw;
+  padding: 2rem;
+  margin-left: 5%;
+  border-radius: 10px;
+}
+
+.story-overlay h2 {
+  font-size: 80px;
+  margin-bottom: 1rem;
+}
+.story-overlay p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.paragraph {
+  width: 30%;
+  font-size: 60px;
+  margin-left: 250px;
+}

@@ -1,0 +1,47 @@
+.employees-section {
+  background-color: #eaeaea;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.employees-section h2 {
+  font-size: 60px;
+  margin-bottom: 70px;
+  margin-right: 120px;
+  font-weight: bold;
+}
+
+.employee-cards {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.employee {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.employee img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.employee-card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.employee-card p {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  text-align: center;
+}

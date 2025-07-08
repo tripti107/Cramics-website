@@ -1,0 +1,15 @@
+.contact-page {
+  font-family: "Segoe UI", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-hero {
+  background: url("../Assets/shop1.webp ") center/cover no-repeat;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 80px;
+}

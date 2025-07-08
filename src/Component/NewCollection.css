@@ -1,0 +1,76 @@
+.new-collection {
+  display: flex;
+  padding: 50px;
+  gap: 40px;
+  background: #f2f2f2;
+}
+h2 {
+  margin-left: 250px;
+  font-size: 50px;
+  margin-top: 70px;
+}
+.para {
+  margin-left: 250px;
+  font-size: 30px;
+}
+.collection-text {
+  flex: 1;
+}
+
+.collection-text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.collection-text p {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.collection-text button {
+  padding: 15px 40px;
+  background: brown;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 30px;
+  width: fit-content;
+  cursor: pointer;
+  margin-left: 250px;
+}
+
+.collection-images {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+.left-column img {
+  height: 240px;
+  width: 90px;
+}
+.left-column photo {
+  height: 240px;
+  width: 90px;
+}
+
+.right-column {
+  flex: 1;
+}
+.right-column img {
+  width: 800px;
+  height: 490px;
+}
+
+.collection-images img {
+  width: 100%;
+  object-fit: cover;
+}

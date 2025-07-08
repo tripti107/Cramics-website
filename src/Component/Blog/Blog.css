@@ -1,0 +1,55 @@
+.blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.read-more {
+  font-size: 30px;
+}
+.grid-card {
+  overflow: hidden;
+  width: 700px;
+  height: 1000px;
+}
+
+.grid-card img {
+  width: 600px;
+  height: 500px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.grid-card h3 {
+  font-size: 30px;
+  margin: 8px 0 4px;
+}
+
+.grid-card .date {
+  font-size: 30px;
+  color: gray;
+  margin-bottom: 8px;
+}
+
+.grid-card p {
+  font-size: 30px;
+  color: #444;
+}
+.pagination {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 40px;
+}
+
+.pagination span {
+  margin: 0 8px;
+  cursor: pointer;
+  color: #444;
+}
+
+.current-page {
+  font-weight: bold;
+  color: #d62828;
+  border-bottom: 2px solid #d62828;
+}

@@ -1,0 +1,77 @@
+.show-container {
+  background-color: lightsteelblue;
+  width: 100%;
+  padding: 60px 0;
+}
+
+.show {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.show-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.show-text h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.show-text p {
+  font-size: 24px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 30px;
+  margin-left: 250px;
+}
+
+.show-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  font-size: 24px;
+}
+
+.subscribe-btn {
+  background-color: #844c4c;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 250px;
+}
+
+.showmore-btn {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #844c4c;
+  color: #844c4c;
+  padding: 12px 24px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.show-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.show-image img {
+  width: 800px;
+  height: 700px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-left: 150px;
+}
